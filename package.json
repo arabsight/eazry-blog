@@ -1,9 +1,13 @@
 {
-  "name": "frontendmasters-gatsby",
+  "name": "eazry-blog",
   "private": true,
-  "description": "Bare-bones starter for the Gatsby Frontend Masters workshop.",
-  "version": "0.1.0",
+  "description": "My personal site/blog",
+  "version": "1.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arabsight/eazry-blog"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
@@ -18,10 +22,15 @@
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
     "gatsby": "^2.18.6",
+    "gatsby-background-image": "^1.0.1",
+    "gatsby-image": "^2.3.1",
     "gatsby-plugin-emotion": "^4.2.1",
     "gatsby-plugin-mdx": "^1.1.3",
     "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-remark-images": "^3.2.1",
     "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
@@ -29,9 +38,5 @@
   "devDependencies": {
     "cross-env": "^7.0.2",
     "prettier": "^2.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jlengstorf/frontendmasters-gatsby"
   }
 }
