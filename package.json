@@ -14,6 +14,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "analyze": "cross-env ANALYZE_BUNDLE_SIZE=true gatsby build",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "gatsby-plugin-webpack-bundle-analyzer": "^1.0.5",
     "prettier": "^2.0.2"
   }
 }
